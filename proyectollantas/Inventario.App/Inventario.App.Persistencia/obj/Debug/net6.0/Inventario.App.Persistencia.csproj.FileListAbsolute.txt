@@ -1,0 +1,17 @@
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\bin\Debug\net6.0\Inventario.App.Persistencia.deps.json
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\bin\Debug\net6.0\Inventario.App.Persistencia.runtimeconfig.json
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\bin\Debug\net6.0\Inventario.App.Persistencia.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\bin\Debug\net6.0\Inventario.App.Persistencia.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\bin\Debug\net6.0\Inventario.App.Dominio.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\bin\Debug\net6.0\Inventario.App.Dominio.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.csproj.AssemblyReference.cache
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.AssemblyInfoInputs.cache
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.AssemblyInfo.cs
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.csproj.CopyComplete
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\refint\Inventario.App.Persistencia.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\Inventario.App.Persistencia.genruntimeconfig.cache
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Persistencia\obj\Debug\net6.0\ref\Inventario.App.Persistencia.dll

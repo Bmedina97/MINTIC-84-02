@@ -1,8 +1,5 @@
-﻿using System;
-
-namespace Inventario.App.Persistencia
+﻿namespace Inventario.App.Persistencia;
+public class Class1
 {
-    public class Class1
-    {
-    }
+
 }

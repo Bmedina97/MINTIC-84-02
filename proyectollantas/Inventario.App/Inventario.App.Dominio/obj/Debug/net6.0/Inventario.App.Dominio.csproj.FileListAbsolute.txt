@@ -1,0 +1,12 @@
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\bin\Debug\net6.0\Inventario.App.Dominio.deps.json
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\bin\Debug\net6.0\Inventario.App.Dominio.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\bin\Debug\net6.0\Inventario.App.Dominio.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\Inventario.App.Dominio.csproj.AssemblyReference.cache
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\Inventario.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\Inventario.App.Dominio.AssemblyInfoInputs.cache
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\Inventario.App.Dominio.AssemblyInfo.cs
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\Inventario.App.Dominio.csproj.CoreCompileInputs.cache
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\Inventario.App.Dominio.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\refint\Inventario.App.Dominio.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\Inventario.App.Dominio.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Dominio\obj\Debug\net6.0\ref\Inventario.App.Dominio.dll
