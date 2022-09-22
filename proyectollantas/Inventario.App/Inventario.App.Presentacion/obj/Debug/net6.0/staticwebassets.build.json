@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dTes8ei7wRAuvmZlmd4r8DyFvDaz/wefO4bpx1QRi+s=",
+  "Hash": "QLXKxv1PteH1oXqkc4qL4XIJzKSFvr7EtjECfAaG/2E=",
   "Source": "Inventario.App.Presentacion",
   "BasePath": "_content/Inventario.App.Presentacion",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\BRANDON\\ACADEMICO\\MISION TIC\\CICLO 3\\DESARROLLO DE SOFTWARE\\MINTIC-84-02\\proyectollantas\\Inventario.App\\Inventario.App.Presentacion\\wwwroot\\imagenes\\hankook-tire.png",
+      "SourceId": "Inventario.App.Presentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\BRANDON\\ACADEMICO\\MISION TIC\\CICLO 3\\DESARROLLO DE SOFTWARE\\MINTIC-84-02\\proyectollantas\\Inventario.App\\Inventario.App.Presentacion\\wwwroot\\",
+      "BasePath": "_content/Inventario.App.Presentacion",
+      "RelativePath": "imagenes/hankook-tire.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\hankook-tire.png"
     },
     {
       "Identity": "C:\\BRANDON\\ACADEMICO\\MISION TIC\\CICLO 3\\DESARROLLO DE SOFTWARE\\MINTIC-84-02\\proyectollantas\\Inventario.App\\Inventario.App.Presentacion\\wwwroot\\js\\site.js",
