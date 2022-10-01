@@ -22,7 +22,7 @@ namespace Proyectos.App.Presentacion.Proveedores
             if (!ModelState.IsValid) {
                 return Page();
             }
-            proveedor.pro_vigente = true;
+            proveedor.vigente = true;
 
             //aqui debcontext y guardar el registro
             return RedirectToPage();

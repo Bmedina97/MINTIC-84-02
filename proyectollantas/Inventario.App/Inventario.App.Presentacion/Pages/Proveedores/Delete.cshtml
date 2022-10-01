@@ -1,7 +1,7 @@
 ﻿@page
-@model Proyectos.App.Presentacion.Proveedores.EditModel
+@model Proyectos.App.Presentacion.Proveedores.DeleteModel
 @{
-    ViewData["Title"] = "Editar Proveedor";
+    ViewData["Title"] = "Eliminar Proveedor";
 }
 
 <div class="card">
@@ -24,7 +24,6 @@
                             <div class="col-sm-1">
                                 <input asp-for="proveedor.id" class="form-control" value="@Model.proveedor.id" disabled/>
                             </div>
-                            <span asp-validation-for="proveedor.id" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -36,9 +35,8 @@
                                 <label asp-for="proveedor.nit"></label>
                             </div>
                             <div class="col-sm-3">
-                                <input asp-for="proveedor.nit" class="form-control" value="@Model.proveedor.nit"/>
+                                <input asp-for="proveedor.nit" class="form-control" value="@Model.proveedor.nit" disabled/>
                             </div>
-                            <span asp-validation-for="proveedor.nit" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -50,9 +48,8 @@
                                 <label asp-for="proveedor.nombre"></label>
                             </div>
                             <div class="col-sm-6">
-                                <input asp-for="proveedor.nombre" class="form-control" value="@Model.proveedor.nombre"/>
+                                <input asp-for="proveedor.nombre" class="form-control" value="@Model.proveedor.nombre" disabled/>
                             </div>
-                            <span asp-validation-for="proveedor.nombre" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -64,9 +61,8 @@
                                 <label asp-for="proveedor.direccion"></label>
                             </div>
                             <div class="col-sm-6">
-                                <input asp-for="proveedor.direccion" class="form-control" value="@Model.proveedor.direccion"/>
+                                <input asp-for="proveedor.direccion" class="form-control" value="@Model.proveedor.direccion" disabled/>
                             </div>
-                            <span asp-validation-for="proveedor.direccion" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -78,9 +74,8 @@
                                 <label asp-for="proveedor.telefono"></label>
                             </div>
                             <div class="col-sm-3">
-                                <input asp-for="proveedor.telefono" class="form-control" value="@Model.proveedor.telefono"/>
+                                <input asp-for="proveedor.telefono" class="form-control" value="@Model.proveedor.telefono" disabled/>
                             </div>
-                            <span asp-validation-for="proveedor.telefono" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -92,9 +87,8 @@
                                 <label asp-for="proveedor.email"></label>
                             </div>
                             <div class="col-sm-6">
-                                <input asp-for="proveedor.email" class="form-control" type="email" value="@Model.proveedor.email"/>
+                                <input asp-for="proveedor.email" class="form-control" type="email" value="@Model.proveedor.email" disabled/>
                             </div>
-                            <span asp-validation-for="proveedor.email" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -106,7 +100,7 @@
                                 <label asp-for="proveedor.vigente"></label>
                             </div>
                             <div class="col-sm-6">
-                                <input asp-for="proveedor.vigente" class="form-check-input" type="checkbox" value="@Model.proveedor.vigente"/>
+                                <input asp-for="proveedor.vigente" class="form-check-input" type="checkbox" value="@Model.proveedor.vigente" disabled/>
                             </div>
                         </div>
                     </div>
@@ -116,7 +110,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2 offset-sm-2"> 
-                                <input type="submit" value="Guardar" class="btn btn-success form-control" />
+                                <input type="submit" value="Eliminar" class="btn btn-danger form-control" />
                             </div>
                             <div class="col-sm-4">
                                 <a asp-page="List" class="btn btn-primary form-control">Volver a la Lista</a>

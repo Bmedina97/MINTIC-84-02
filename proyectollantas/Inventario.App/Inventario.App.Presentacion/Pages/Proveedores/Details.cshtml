@@ -1,44 +1,29 @@
 ﻿@page
-@model Proyectos.App.Presentacion.Proveedores.EditModel
+@model Proyectos.App.Presentacion.Pages.Proveedores.DetailsModel
 @{
-    ViewData["Title"] = "Editar Proveedor";
+    ViewData["Title"] = "Detalles Proveedor";
 }
 
 <div class="card">
     <div class="card-header">
-        <h2 class="text-primary">Datos del proveedor</h2>
+        <h2 class="text-info">Datos del Proveedor</h2>
     </div>
     <div class="card-body">
         <form method="post">
-            <div asp-validation-sumary="ModelOnly" class="text-dark">
-
+            <div asp-validation-sumary="ModelOnly" class="text-primary">
                 <div class="container" style="padding: 30px">
+                    
                     <!-- se envía campo de la PK oculto -->
                     <input type="hidden"  asp-for="proveedor.id" />
 
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.id"></label>
-                            </div>
-                            <div class="col-sm-1">
-                                <input asp-for="proveedor.id" class="form-control" value="@Model.proveedor.id" disabled/>
-                            </div>
-                            <span asp-validation-for="proveedor.id" class="text-danger"></span>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm-2"> 
-                                <label asp-for="proveedor.nit"></label>
+                                <label asp-for="proveedor.nit"  class="text-primary"></label>
                             </div>
                             <div class="col-sm-3">
-                                <input asp-for="proveedor.nit" class="form-control" value="@Model.proveedor.nit"/>
+                                @Model.proveedor.nit;
                             </div>
-                            <span asp-validation-for="proveedor.nit" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -47,12 +32,11 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.nombre"></label>
+                                <label asp-for="proveedor.nombre"  class=" text-primary"></label>
                             </div>
                             <div class="col-sm-6">
-                                <input asp-for="proveedor.nombre" class="form-control" value="@Model.proveedor.nombre"/>
+                                @Model.proveedor.nombre
                             </div>
-                            <span asp-validation-for="proveedor.nombre" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -61,10 +45,10 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.direccion"></label>
+                                <label asp-for="proveedor.direccion"  class=" text-primary"></label>
                             </div>
                             <div class="col-sm-6">
-                                <input asp-for="proveedor.direccion" class="form-control" value="@Model.proveedor.direccion"/>
+                                @Model.proveedor.direccion
                             </div>
                             <span asp-validation-for="proveedor.direccion" class="text-danger"></span>
                         </div>
@@ -75,12 +59,11 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.telefono"></label>
+                                <label asp-for="proveedor.telefono"  class=" text-primary"></label>
                             </div>
                             <div class="col-sm-3">
-                                <input asp-for="proveedor.telefono" class="form-control" value="@Model.proveedor.telefono"/>
+                                @Model.proveedor.telefono
                             </div>
-                            <span asp-validation-for="proveedor.telefono" class="text-danger"></span>
                         </div>
                     </div>
 
@@ -89,24 +72,10 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.email"></label>
+                                <label asp-for="proveedor.email"  class=" text-primary"></label>
                             </div>
-                            <div class="col-sm-6">
-                                <input asp-for="proveedor.email" class="form-control" type="email" value="@Model.proveedor.email"/>
-                            </div>
-                            <span asp-validation-for="proveedor.email" class="text-danger"></span>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm-2"> 
-                                <label asp-for="proveedor.vigente"></label>
-                            </div>
-                            <div class="col-sm-6">
-                                <input asp-for="proveedor.vigente" class="form-check-input" type="checkbox" value="@Model.proveedor.vigente"/>
+                            <div class="col-sm-3">
+                                @Model.proveedor.email
                             </div>
                         </div>
                     </div>
@@ -115,9 +84,19 @@
                     
                     <div class="form-group">
                         <div class="row">
-                            <div class="col-sm-2 offset-sm-2"> 
-                                <input type="submit" value="Guardar" class="btn btn-success form-control" />
+                            <div class="col-sm-2"> 
+                                <label asp-for="proveedor.vigente"  class="text-primary"></label>
                             </div>
+                            <div class="col-sm-3">
+                                @Model.proveedor.vigente
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+                    
+                    <div class="form-group">
+                        <div class="row">
                             <div class="col-sm-4">
                                 <a asp-page="List" class="btn btn-primary form-control">Volver a la Lista</a>
                             </div>                            

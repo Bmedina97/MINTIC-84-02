@@ -6,7 +6,7 @@ using Proyectos.App.Dominio.Entidades;
 namespace Proyectos.App.Presentacion.Proveedores
 
 {
-    public class EditModel : PageModel
+    public class DeleteModel : PageModel
     {
         [BindProperty]
         public Proveedor proveedor { get; set; }

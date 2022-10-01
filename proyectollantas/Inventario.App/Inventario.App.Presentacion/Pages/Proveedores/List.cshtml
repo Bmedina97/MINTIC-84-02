@@ -12,48 +12,47 @@
                 <h2><div class="text-info">Lista de Proveedores</h2>
             </div>
             <div class="col-sm-6">
-                 <a class="btn btn-primary btn-sm" asp-page="./Crear">
-                            Crear Proveedor
-                 </a>
+                 <a class="btn btn-primary btn-sm" asp-page="./Crear">Crear Proveedor</a>
             </div>            
         </div>    
     </div>
+    
     <div class="card-body">
         @if (Model.proveedores.Count() > 0) { 
             <br /><br />
             <table class="table table-striped border">
                 <tr class="table-secondary">
-                    <th>@Html.DisplayNameFor(m => m.proveedores.First().pro_id)</th>
-                    <th>@Html.DisplayNameFor(m => m.proveedores.First().pro_nit)</th>
-                    <th>@Html.DisplayNameFor(m => m.proveedores.First().pro_nombre)</th>
-                    <th>@Html.DisplayNameFor(m => m.proveedores.First().pro_direccion)</th>
-                    <th>@Html.DisplayNameFor(m => m.proveedores.First().pro_telefono)</th>
-                    <th>@Html.DisplayNameFor(m => m.proveedores.First().pro_email)</th>
-                    <th>@Html.DisplayNameFor(m => m.proveedores.First().pro_vigente)</th>
+                    <th>@Html.DisplayNameFor(m => m.proveedores.First().id)</th>
+                    <th>@Html.DisplayNameFor(m => m.proveedores.First().nit)</th>
+                    <th>@Html.DisplayNameFor(m => m.proveedores.First().nombre)</th>
+                    <th>@Html.DisplayNameFor(m => m.proveedores.First().direccion)</th>
+                    <th>@Html.DisplayNameFor(m => m.proveedores.First().telefono)</th>
+                    <th>@Html.DisplayNameFor(m => m.proveedores.First().email)</th>
+                    <th>@Html.DisplayNameFor(m => m.proveedores.First().vigente)</th>
                     <th>ACCIONES</th>
                 </tr>
                 @foreach (var item in Model.proveedores)  {
                 <tr>
-                    <td>@Html.DisplayFor(m => item.pro_id)</td>
-                    <td>@Html.DisplayFor(m => item.pro_nit)</td>
-                    <td>@Html.DisplayFor(m => item.pro_nombre)</td>
-                    <td>@Html.DisplayFor(m => item.pro_direccion)</td>
-                    <td>@Html.DisplayFor(m => item.pro_telefono)</td>
-                    <td>@Html.DisplayFor(m => item.pro_email)</td>
-                    <td>@Html.DisplayFor(m => item.pro_vigente)</td>
+                    <td>@Html.DisplayFor(m => item.id)</td>
+                    <td>@Html.DisplayFor(m => item.nit)</td>
+                    <td>@Html.DisplayFor(m => item.nombre)</td>
+                    <td>@Html.DisplayFor(m => item.direccion)</td>
+                    <td>@Html.DisplayFor(m => item.telefono)</td>
+                    <td>@Html.DisplayFor(m => item.email)</td>
+                    <td>@Html.DisplayFor(m => item.vigente)</td>
                     <td>
-                        <a class="btn btn-primary btn-sm" asp-page="./Details" asp-route-proveedorid="@item.pro_id">
+                        <a class="btn btn-success btn-sm" asp-page="./Details" asp-route-proveedorid="@item.id">
                             Detalle</a>
                     </td>
 
                     <td>
-                        <a class="btn btn-primary btn-sm" asp-page="./Edit" asp-route-proveedorid="@item.pro_id">
+                        <a class="btn btn-primary btn-sm" asp-page="./Edit" asp-route-proveedorid="@item.id">
                             Editar
                         </a>
                     </td> 
 
                     <td>
-                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-proveedorid="@item.pro_id">
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-proveedorid="@item.id">
                             Eliminar
                         </a>
                     </td> 

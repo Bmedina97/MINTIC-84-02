@@ -8,23 +8,24 @@ namespace Proyectos.App.Dominio.Entidades
         //atributos de la clase Proveedor
         [Key]
         [Display(Name = "Id")]
-        public int pro_id { get; set; }
+        public int id { get; set; }
         [Required]        
         [Display(Name = "Nit")]
-        public string pro_nit{ get; set; }
+        public string nit{ get; set; }
         [Required]        
         [Display(Name = "Nombre del Proveedor")]
-        public string pro_nombre{ get; set; }
+        public string nombre{ get; set; }
         [Required]
         [Display(Name = "Direccion")]
-        public string pro_direccion{ get; set; }
+        public string direccion{ get; set; }
         [Required]                   
         [Display(Name = "Telefono")]
-        public string pro_telefono{ get; set; }
+        public string telefono{ get; set; }
         [Required]        
         [Display(Name = "Correo electronico")]
-        public string pro_email{ get; set; }
+        public string email{ get; set; }
         [Required]
-        public bool pro_vigente{ get; set; }
+        [Display(Name = "Vigente")]
+        public bool vigente{ get; set; }
     }
 }

@@ -27,10 +27,10 @@ namespace Proyectos.App.Presentacion.Pages.Proveedores
         public void cargarTemporales(){
             proveedores = new List<Proveedor>()
             {
-                new Proveedor{pro_id=1, pro_nit="102030", pro_nombre="Jhon Jairo Orozco", pro_direccion="CLL 1", pro_telefono="cel1", pro_email="01@xx", pro_vigente=true},
-                new Proveedor{pro_id=2, pro_nit="304050", pro_nombre="Luz Dary Martinez", pro_direccion="CLL 2", pro_telefono="cel2", pro_email="02@xx", pro_vigente=true},
-                new Proveedor{pro_id=3, pro_nit="607080", pro_nombre="Mateo Orozco", pro_direccion="CLL 3", pro_telefono="cel3", pro_email="03@xx", pro_vigente=true},
-                new Proveedor{pro_id=4, pro_nit="901020", pro_nombre="Mario Enrique Montoya", pro_direccion="CLL 4", pro_telefono="cel4", pro_email="04@xx", pro_vigente=true}
+                new Proveedor{id=1, nit="102030", nombre="Jhon Jairo Orozco", direccion="CLL 1", telefono="cel1", email="01@xx", vigente=true},
+                new Proveedor{id=2, nit="304050", nombre="Luz Dary Martinez", direccion="CLL 2", telefono="cel2", email="02@xx", vigente=true},
+                new Proveedor{id=3, nit="607080", nombre="Mateo Orozco", direccion="CLL 3", telefono="cel3", email="03@xx", vigente=true},
+                new Proveedor{id=4, nit="901020", nombre="Mario Enrique Montoya", direccion="CLL 4", telefono="cel4", email="04@xx", vigente=true}
             };
         }
     }
