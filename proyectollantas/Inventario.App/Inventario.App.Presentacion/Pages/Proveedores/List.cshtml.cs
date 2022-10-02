@@ -2,37 +2,35 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
-using Proyectos.App.Dominio.Entidades;
+using Inventario.App.Dominio.Entidades;
+using Inventario.App.Persistencia.AppRepositorios;
+using Inventario.App.Persistencia;
 
-namespace Proyectos.App.Presentacion.Pages.Proveedores
+namespace Inventario.App.Presentacion.Proveedores
 
 {
+    //[Authorize]
     public class ListModel : PageModel
-    {   
-        public IEnumerable<Proveedor> proveedores { get; set; }
-        public ListModel(){
-            cargarTemporales();
-        }
+    {
+        private readonly IRepositorios _appContext;
+        public IEnumerable<Proveedor> proveedores {get; set;}         
 
-        public async Task OnGet()
+        public ListModel()
         {
-            cargarTemporales();
-            //proveedores = await _contexto.Proveedor.ToListAsync();            
+            this._appContext = new Repositorios(new Inventario.App.Persistencia.AppContext());
         }
-
-        public void cargarTemporales(){
-            proveedores = new List<Proveedor>()
-            {
-                new Proveedor{id=1, nit="102030", nombre="Jhon Jairo Orozco", direccion="CLL 1", telefono="cel1", email="01@xx", vigente=true},
-                new Proveedor{id=2, nit="304050", nombre="Luz Dary Martinez", direccion="CLL 2", telefono="cel2", email="02@xx", vigente=true},
-                new Proveedor{id=3, nit="607080", nombre="Mateo Orozco", direccion="CLL 3", telefono="cel3", email="03@xx", vigente=true},
-                new Proveedor{id=4, nit="901020", nombre="Mario Enrique Montoya", direccion="CLL 4", telefono="cel4", email="04@xx", vigente=true}
-            };
+       
+        public void OnGet()
+        {
+            proveedores = _appContext.GetAllProveedores();
         }
+        
     }
 }
+
 

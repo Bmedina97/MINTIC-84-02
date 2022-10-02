@@ -1,5 +1,5 @@
 ﻿@page
-@model Proyectos.App.Presentacion.Pages.Proveedores.DetailsModel
+@model Inventario.App.Presentacion.Proveedores.DetailsModel
 @{
     ViewData["Title"] = "Detalles Proveedor";
 }
@@ -10,7 +10,7 @@
     </div>
     <div class="card-body">
         <form method="post">
-            <div asp-validation-sumary="ModelOnly" class="text-primary">
+            <div asp-validation-sumary="ModelOnly" class="text-dark">
                 <div class="container" style="padding: 30px">
                     
                     <!-- se envía campo de la PK oculto -->
@@ -19,7 +19,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.nit"  class="text-primary"></label>
+                                <label asp-for="proveedor.nit"  class="text-dark"></label>
                             </div>
                             <div class="col-sm-3">
                                 @Model.proveedor.nit;
@@ -32,7 +32,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.nombre"  class=" text-primary"></label>
+                                <label asp-for="proveedor.nombre"  class=" text-dark"></label>
                             </div>
                             <div class="col-sm-6">
                                 @Model.proveedor.nombre
@@ -45,7 +45,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.direccion"  class=" text-primary"></label>
+                                <label asp-for="proveedor.direccion"  class=" text-dark"></label>
                             </div>
                             <div class="col-sm-6">
                                 @Model.proveedor.direccion
@@ -59,7 +59,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.telefono"  class=" text-primary"></label>
+                                <label asp-for="proveedor.telefono"  class=" text-dark"></label>
                             </div>
                             <div class="col-sm-3">
                                 @Model.proveedor.telefono
@@ -72,7 +72,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.email"  class=" text-primary"></label>
+                                <label asp-for="proveedor.email"  class=" text-dark"></label>
                             </div>
                             <div class="col-sm-3">
                                 @Model.proveedor.email
@@ -85,7 +85,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-2"> 
-                                <label asp-for="proveedor.vigente"  class="text-primary"></label>
+                                <label asp-for="proveedor.vigente"  class="text-dark"></label>
                             </div>
                             <div class="col-sm-3">
                                 @Model.proveedor.vigente

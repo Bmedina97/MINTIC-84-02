@@ -1,5 +1,5 @@
 ﻿@page
-@model Proyectos.App.Presentacion.Pages.Proveedores.ListModel
+@model Inventario.App.Presentacion.Proveedores.ListModel
 @{
    //var searchString = Model.searchString; 
    ViewData["Title"] = "Lista de Proveedores";
@@ -12,13 +12,13 @@
                 <h2><div class="text-info">Lista de Proveedores</h2>
             </div>
             <div class="col-sm-6">
-                 <a class="btn btn-primary btn-sm" asp-page="./Crear">Crear Proveedor</a>
+                <a class="btn btn-primary btn-sm" asp-page="Crear">Crear Nuevo Proveedor</a>
             </div>            
         </div>    
     </div>
-    
+
     <div class="card-body">
-        @if (Model.proveedores.Count() > 0) { 
+        @if (Model.proveedores.Count() > 0) {
             <br /><br />
             <table class="table table-striped border">
                 <tr class="table-secondary">
@@ -29,7 +29,9 @@
                     <th>@Html.DisplayNameFor(m => m.proveedores.First().telefono)</th>
                     <th>@Html.DisplayNameFor(m => m.proveedores.First().email)</th>
                     <th>@Html.DisplayNameFor(m => m.proveedores.First().vigente)</th>
-                    <th>ACCIONES</th>
+                    <th>Detalles</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
                 </tr>
                 @foreach (var item in Model.proveedores)  {
                 <tr>
@@ -40,28 +42,32 @@
                     <td>@Html.DisplayFor(m => item.telefono)</td>
                     <td>@Html.DisplayFor(m => item.email)</td>
                     <td>@Html.DisplayFor(m => item.vigente)</td>
+
                     <td>
-                        <a class="btn btn-success btn-sm" asp-page="./Details" asp-route-proveedorid="@item.id">
-                            Detalle</a>
+                        <a class="btn btn-success btn-sm" asp-page="./Details" asp-route-proveedorId="@item.id">
+                            Detalle
+                        </a>
                     </td>
 
                     <td>
-                        <a class="btn btn-primary btn-sm" asp-page="./Edit" asp-route-proveedorid="@item.id">
+                        <a class="btn btn-primary btn-sm" asp-page="./Edit" asp-route-proveedorId="@item.id">
                             Editar
                         </a>
                     </td> 
 
                     <td>
-                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-proveedorid="@item.id">
+                        <a class="btn btn-danger btn-sm" asp-page="./Delete" asp-route-proveedorId="@item.id">
                             Eliminar
                         </a>
                     </td> 
-                </tr>    }
+                </tr>    
+                }
             </table>
         }
-        
+
         else{
-            <p>No hay Proveedores disponibles</p>
+            <p>No hay Proveedores para Listar</p>
         }
     </div>
 </div>
+

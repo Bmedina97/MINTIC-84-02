@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Proyectos.App.Dominio.Entidades
+namespace Inventario.App.Dominio.Entidades
 
 {
     public class Proveedor

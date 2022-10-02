@@ -13,7 +13,6 @@ C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proy
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -63,3 +62,8 @@ C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proy
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\obj\Debug\net6.0\Inventario.App.Presentacion.pdb
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\obj\Debug\net6.0\Inventario.App.Presentacion.genruntimeconfig.cache
 C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\obj\Debug\net6.0\ref\Inventario.App.Presentacion.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\BRANDON\ACADEMICO\MISION TIC\CICLO 3\DESARROLLO DE SOFTWARE\MINTIC-84-02\proyectollantas\Inventario.App\Inventario.App.Presentacion\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb

@@ -1,46 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
-using Proyectos.App.Dominio.Entidades;
+using Inventario.App.Dominio.Entidades;
+using Inventario.App.Persistencia.AppRepositorios;
+using Inventario.App.Persistencia;
 
-namespace Proyectos.App.Presentacion.Proveedores
+namespace Inventario.App.Presentacion.Proveedores
 
 {
     public class EditModel : PageModel
     {
+        private readonly IRepositorios _appContext;
+        
         [BindProperty]
         public Proveedor proveedor { get; set; }
 
-        public void OnGet()
-            //aqui traer x debcontext de la base de datos
-            {
-                proveedor = new Proveedor{
-                    id = 2,
-                    nit = "traidos",
-                    nombre = "nombre temporal para traer",
-                    direccion = "direccion temporal para traer",
-                    telefono = "telefono temporal para traer",
-                    email = "emailtemporal@gmail.com",
-                    vigente = true
-                };
-            }
+        public EditModel(){
+            //cargar desde la base de datos tabla proveedor
+            this._appContext = new Repositorios(new Inventario.App.Persistencia.AppContext());
+            //cargarTemporales();
+        }
+       
 
-
-        /*public async Task<ActionResult> OnPost()
+        public IActionResult OnGet(int? proveedorId)
         {
-            if (ModelState.IsValid) {
-                //buscar por el id y cargar los datos
-                id = 2;
-                nit = "traidos";
-                nombre = "nombre temporal para traer";
-                direccion = "direccion temporal para traer";
-                telefono = "telefono temporal para traer";
-                email = "emailtemporal@gmail.com";
-                vigente = true;
-                //guardar los cambios x dbcontext
-                return RedirectToPage("List");
+            if (proveedorId.HasValue)
+            {
+                proveedor = _appContext.GetProveedor(proveedorId.Value);
             }
-            return RedirectToPage();
-        }*/
+            if (proveedor == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            else
+                return Page();
+
+        }
+
+        public IActionResult OnPost()
+        {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
+            if(proveedor.id > 0)
+            {
+               proveedor = _appContext.UpdateProveedor(proveedor);
+            }
+            return Redirect("List");   
+        }
     }
 }
